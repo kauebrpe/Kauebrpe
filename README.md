@@ -20,7 +20,7 @@
 
 <h3 align="left">Linguagens e Ferramentas que estou aprendendo:</h3>
 
-[![Minhas habilidades](https://skillicons.dev/icons?i=html,css,java,c)]()
+[![Minhas habilidades](https://skillicons.dev/icons?i=html,css,js,c)]()
 
 
 <h3 align="left">Entre em contato comigo:</h3>
