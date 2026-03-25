@@ -1,5 +1,5 @@
 <div align=center>
-    <img src="https://raw.githubusercontent.com/AhmedFathyDev/AhmedFathyDev/main/GitHub.png" alt="GitHub Octocat Drinking a Cup of Coffee" height="200">
+    <img src="https://raw.githubusercontent.com/arthurspk/guiadevbrasil/refs/heads/main/images/guia.png" alt="GitHub Octocat Drinking a Cup of Coffee" height="200">
 </div>
 <div align=center>
     <img src="https://readme-typing-svg.herokuapp.com?color=%236FDA44&size=50¢er=true&vCenter=true&width=600&height=50&lines=Estudante+de+ADS;Aprendendo+HTML+%26+CSS+%26+JavaScript;Explorando+o+mundo+do+dev;" alt="Headline" />
