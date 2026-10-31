@@ -7,7 +7,7 @@
 
 <h1 align="center">Olá 👋, Eu sou Kaue de Carvalho Nascimento</h1>
 <h3 align="center">Estudante de Análise e Desenvolvimento de Sistemas residente em Recife, PE / Brasil.</h3>
-<p align="center">Tenho 19 anos e estou no início da minha jornada na área de tecnologia, cursando ADS na Faculdade Senac Recife. Atualmente no 1° período, estou aprendendo HTML, CSS, Java, Algoritmos em C e Banco de Dados. Aqui neste perfil você vai acompanhar minha evolução ao longo do curso.</p>
+<p align="center">Tenho 19 anos e estou no início da minha jornada na área de tecnologia, cursando ADS na Faculdade Senac Recife. Atualmente no 2° período, estou aprendendo HTML, CSS, Java, Algoritmos em C e Banco de Dados. Aqui neste perfil você vai acompanhar minha evolução ao longo do curso.</p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=SEU-USERNAME-AQUI&label=Visualizações%20no%20perfil&color=0e75b6&style=flat" alt="kaue-nascimento" /> </p>
 
