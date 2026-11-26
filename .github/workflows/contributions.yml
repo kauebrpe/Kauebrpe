@@ -1,0 +1,57 @@
+name: Calendário de contribuições
+on:
+  push:
+    branches: [main, feature/profile-matrix-v5]
+    paths: ['.github/workflows/contributions.yml']
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions: {}
+concurrency:
+  group: calendar-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+    steps:
+      - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+        with:
+          github_user_name: kauebrpe
+          outputs: |
+            dist/contributions.svg?color_snake=%2339FF14&color_dots=%23232f2a,%231b4930,%232d7142,%234b9b55,%2389c986
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: calendar
+          path: dist/contributions.svg
+          if-no-files-found: error
+          retention-days: 1
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: calendar
+      - name: Atualizar apenas a imagem na branch de origem
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -eu
+          endpoint="repos/$GITHUB_REPOSITORY/contents/assets/contributions.svg"
+          sha=$(gh api "$endpoint?ref=$BRANCH" --jq .sha)
+          if [ "$(git hash-object contributions.svg)" = "$sha" ]; then exit 0; fi
+          gh api -X PUT "$endpoint" -f branch="$BRANCH" -f sha="$sha" \
+            -f message="Atualiza calendário de contribuições" \
+            -f content="$(base64 -w0 contributions.svg)" >/dev/null
