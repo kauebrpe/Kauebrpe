@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 49" width="700" height="49" role="img" aria-label="Fim da sessão — kauebrpe">
-<title>Fim da sessão — kauebrpe</title>
-<rect width="700" height="49" rx="12" fill="#0D1117"/><path d="M10 26h70l12-12h70m325 22h75l12-12h105" fill="none" stroke="#33714c"/><text x="350" y="32" font-family="monospace" font-size="21" fill="#7EE787" text-anchor="middle">kauebrpe@recife  ~  $</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 61" width="700" height="61" role="img"><title>Terminal de kauebrpe em Recife</title><rect width="700" height="61" rx="12" fill="#0D1117"/><path d="M0 29h48l12-12h70m421 28h54l16-16h79" stroke="#467657" fill="none"/><text x="169" y="38" font-family="system-ui,sans-serif" font-size="21" fill="#7EE787">kauebrpe@recife  ~  $ exit</text><rect x="441" y="37" width="12" height="2" fill="#39FF14"/></svg>

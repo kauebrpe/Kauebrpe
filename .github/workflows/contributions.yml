@@ -2,7 +2,7 @@ name: Calendário de contribuições
 on:
   push:
     branches: [main, feature/profile-matrix-v5]
-    paths: ['.github/workflows/contributions.yml']
+    paths: ['.github/workflows/contributions.yml', '.github/scripts/activity.py']
   schedule:
     - cron: '17 4 * * *'
   workflow_dispatch:
@@ -19,6 +19,13 @@ jobs:
     permissions:
       contents: read
     steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Gerar estatísticas públicas
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/activity.py
       - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
         with:
           github_user_name: kauebrpe
@@ -29,7 +36,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: calendar
-          path: dist/contributions.svg
+          path: dist/*.svg
           if-no-files-found: error
           retention-days: 1
   publish:
@@ -40,18 +47,26 @@ jobs:
       contents: write
       actions: read
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/download-artifact@v4
         with:
           name: calendar
-      - name: Atualizar apenas a imagem na branch de origem
+          path: generated
+      - name: Publicar os SVGs na branch de origem
         env:
-          GH_TOKEN: ${{ github.token }}
           BRANCH: ${{ github.ref_name }}
         run: |
           set -eu
-          endpoint="repos/$GITHUB_REPOSITORY/contents/assets/contributions.svg"
-          sha=$(gh api "$endpoint?ref=$BRANCH" --jq .sha)
-          if [ "$(git hash-object contributions.svg)" = "$sha" ]; then exit 0; fi
-          gh api -X PUT "$endpoint" -f branch="$BRANCH" -f sha="$sha" \
-            -f message="Atualiza calendário de contribuições" \
-            -f content="$(base64 -w0 contributions.svg)" >/dev/null
+          for image in activity contributions; do
+            test -s "generated/$image.svg"
+            cp "generated/$image.svg" "assets/$image.svg"
+          done
+          git add -- assets/activity.svg assets/contributions.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Atualiza atividade pública do perfil'
+          git pull --rebase origin "$BRANCH"
+          git push origin "HEAD:refs/heads/$BRANCH"
