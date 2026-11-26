@@ -1,29 +1,61 @@
-<div align=center>
-    <img src="https://raw.githubusercontent.com/arthurspk/guiadevbrasil/refs/heads/main/images/guia.png" alt="GitHub Octocat Drinking a Cup of Coffee" height="200">
-</div>
-<div align=center>
-    <img src="https://readme-typing-svg.herokuapp.com?color=%236FDA44&size=50¢er=true&vCenter=true&width=600&height=50&lines=Estudante+de+ADS;Aprendendo+HTML+%26+CSS+%26+JavaScript;Explorando+o+mundo+do+dev;" alt="Headline" />
-</div>
+<h1 align="center">Olá 👋, eu sou Kauê de Carvalho Nascimento</h1>
 
-<h1 align="center">Olá 👋, Eu sou Kaue de Carvalho Nascimento</h1>
-<h3 align="center">Estudante de Análise e Desenvolvimento de Sistemas residente em Recife, PE / Brasil.</h3>
-<p align="center">Tenho 19 anos e estou no início da minha jornada na área de tecnologia, cursando ADS na Faculdade Senac Recife. Atualmente no 2° período, estou aprendendo HTML, CSS, Java, Algoritmos em C e Banco de Dados. Aqui neste perfil você vai acompanhar minha evolução ao longo do curso.</p>
+<p align="center">
+  Estudante de Análise e Desenvolvimento de Sistemas no SENAC Pernambuco
+</p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=SEU-USERNAME-AQUI&label=Visualizações%20no%20perfil&color=0e75b6&style=flat" alt="kaue-nascimento" /> </p>
+<p align="center">
+  Interesse em Desenvolvimento Full Stack, Banco de Dados, Back-end e soluções tecnológicas.
+</p>
 
-- 🎓 Atualmente, estou cursando **ADS na Faculdade Senac Recife**.
+---
 
-- 🌱 Meus estudos atuais focam em **Front-end (HTML & CSS)**, **JavaScript**, **Algoritmos em C** e **Banco de Dados (DDL & DML)**.
+## 🚀 Sobre mim
 
-- 📫 Este é meu e-mail para contato: **kauecarvnascimento@gmail.com**
+- 🎓 Estudante de **Análise e Desenvolvimento de Sistemas**
+- 📍 Recife, Pernambuco - Brasil
+- 💻 Experiência acadêmica com **Java, Spring Boot, React, JavaScript, MySQL e Git/GitHub**
+- 🧠 Interesse em **Back-end, Banco de Dados, APIs, desenvolvimento Full Stack e inovação tecnológica**
+- 📚 Participante de projetos acadêmicos e institucionais como **Trama Conecta**, **Agenda Saúde Digital Tacaratu** e **COMPET Superior 2026**
 
+---
 
-<h3 align="left">Linguagens e Ferramentas que estou aprendendo:</h3>
+## 🛠️ Tecnologias e Ferramentas
 
-[![Minhas habilidades](https://skillicons.dev/icons?i=html,css,js,c)]()
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,react,js,html,css,mysql,git,github,vscode" />
+</p>
 
+---
 
-<h3 align="left">Entre em contato comigo:</h3>
+## 📌 Projetos em destaque
 
-[![Linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/kaue-carvalho-82190237a)
-[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:kauecarvnascimento@gmail.com)
+### 🔹 Trama Conecta
+Sistema full stack voltado para a gestão de confecções do Agreste pernambucano, com funcionalidades de cadastro, pedidos, prazos, dashboard, CSV, login e recuperação de sessão.
+
+### 🔹 Agenda Saúde Digital Tacaratu
+Projeto MVP voltado para soluções digitais na área da saúde, com foco em organização, requisitos, versionamento, documentação e desenvolvimento prático.
+
+### 🔹 COMPET Superior 2026
+Participação em projeto institucional com foco em tecnologia, documentação, desenvolvimento e colaboração em equipe.
+
+---
+
+## 📈 GitHub Stats
+
+<p>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=kauebrpe&show_icons=true&theme=tokyonight" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kauebrpe&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 📫 Contato
+
+- ✉️ Email: **kauecarvalhonascimento@gmail.com**
+- 💼 LinkedIn: **coloque teu link aqui**
+- 📄 Currículo Lattes: **coloque teu link aqui**
+
+---
+
+⭐ Sempre buscando aprender, evoluir e construir projetos que fortaleçam minha formação profissional.
