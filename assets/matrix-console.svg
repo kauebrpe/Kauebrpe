@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 212" role="img" aria-labelledby="title">
+<title id="title">Terminal de Kauê com gato holográfico sobre três discos de banco de dados</title>
+<defs>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#163126"/></pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1h4" stroke="#39FF14" opacity=".35"/></pattern>
+  <linearGradient id="shade"><stop stop-color="#0D1117"/><stop offset="1" stop-color="#10251e"/></linearGradient>
+</defs>
+<style>@media(prefers-reduced-motion:no-preference){.cursor{animation:pulse 3s ease-in-out infinite}@keyframes pulse{50%{opacity:.25}}}</style>
+<rect width="860" height="212" rx="14" fill="url(#shade)"/><rect x="475" width="385" height="212" fill="url(#grid)"/>
+<g font-family="monospace"><text x="38" y="47" font-size="17" letter-spacing="3" fill="#9ce8b2">MYSQL &#183; RECIFE / PE</text>
+<text x="34" y="125" font-size="77" font-weight="bold" fill="#effff2">kauebrpe</text><path class="cursor" d="M431 126h34" stroke="#39FF14" stroke-width="8"/>
+<text x="38" y="173" font-size="23" fill="#adcfbb">Banco de Dados / Back-end</text></g>
+<g transform="translate(688 0)" fill="#10271d" stroke="#39FF14" stroke-width="2.5">
+<path d="M-74 146v29c0 24 148 24 148 0v-29"/><ellipse cy="146" rx="74" ry="15"/><path d="M-74 160c0 21 148 21 148 0" fill="none"/>
+<path d="m-54 38 31 22 44-1 32-25-2 61-20 28-31 9-34-11-22-29z" fill="url(#scan)"/>
+<path d="m-34 84 18 4m34-1 17-7M-5 100l6 5 7-6m-45-2-35-6m39 15-37 4m106-16 32-7m-34 18 34 1" fill="none"/>
+</g></svg>
