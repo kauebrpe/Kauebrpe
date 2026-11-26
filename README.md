@@ -79,7 +79,10 @@ Março de 2026 a setembro de 2027 (conclusão prevista).
 **Extensão tecnológica** · Selecionado para integrar o projeto institucional *Agenda Saúde Digital Tacaratu* pelo **COMPET Superior 2026 — FACEPE**, voltado ao desenvolvimento de soluções para a saúde pública.
 
 **Cursos complementares · Curso em Vídeo**  
-MySQL · Java Básico · Git e GitHub · Algoritmo
+![MySQL](assets/curso-mysql.svg)
+![Java Básico](assets/curso-java.svg)
+![Git e GitHub](assets/curso-git.svg)
+![Algoritmo](assets/curso-algoritmo.svg)
 
 **Idiomas** · Português nativo · Inglês básico · Espanhol básico
 
