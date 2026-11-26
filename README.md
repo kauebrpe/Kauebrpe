@@ -1,302 +1,113 @@
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:102B18,100:0D1117&height=150&section=header&text=KAUEBRPE&fontSize=55&fontColor=39FF14&fontAlignY=42&desc=DATABASE%20%2F%20BACKEND%20%2F%20SECURITY&descSize=15&descAlignY=72&animation=fadeIn"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=1000&color=39FF14&center=true&vCenter=true&width=650&lines=System+online...;Database+Administrator+in+Training;SQL+%26+MySQL+Enthusiast;Backend+%26+REST+APIs;Exploring+Cybersecurity;Always+learning..." alt="Apresentação animada"/>
+![Matrix Database. Gato holográfico verde sobre discos de banco de dados, com circuitos e uma linha que digita SQL, MySQL, DBA e APIs REST.](assets/matrix-console.svg)
 
 # Kauê de Carvalho Nascimento
 
-**Estudante de ADS · DBA em formação · Back-end**
+**DBA em formação · Banco de Dados e Back-end · Recife, PE**
 
-📍 Recife, Pernambuco — Brasil
+Estudo Análise e Desenvolvimento de Sistemas na **Faculdade Senac Pernambuco**. Tenho interesse em como os dados são modelados, protegidos e disponibilizados por APIs REST. Integro o **COMPET Superior 2026 da FACEPE**, no projeto institucional Agenda Saúde Digital Tacaratu.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-174529?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauedecarvalho/)
-[![Lattes](https://img.shields.io/badge/Curr%C3%ADculo_Lattes-174529?style=for-the-badge&logo=googlescholar&logoColor=white)](https://lattes.cnpq.br/1619694344615298)
-[![ORCID](https://img.shields.io/badge/ORCID-174529?style=for-the-badge&logo=orcid&logoColor=A6CE39)](https://orcid.org/0009-0000-1827-4606)
-[![Email](https://img.shields.io/badge/E--mail-174529?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kauecarvnascimento@gmail.com)
+![Open to Work](assets/open-to-work.svg)
 
-![Status](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-174529?style=flat-square&logo=github&logoColor=39FF14)
-![Views](https://komarev.com/ghpvc/?username=kauebrpe&color=238636&style=flat-square&label=VISUALIZACOES)
+**Busco minha primeira oportunidade profissional, em estágio ou vaga júnior, com foco em Banco de Dados ou Back-end.**
 
-</div>
+[![LinkedIn de Kauê](assets/linkedin.svg)](https://www.linkedin.com/in/kauedecarvalho/)
+[![Currículo Lattes de Kauê](assets/lattes.svg)](https://lattes.cnpq.br/1619694344615298)
+[![ORCID de Kauê](assets/orcid.svg)](https://orcid.org/0009-0000-1827-4606)
+[![Enviar e-mail profissional](assets/email.svg)](mailto:kauecarvnascimento@gmail.com)
 
----
+## `~/projetos`
 
-## 🟢 `01 / whoami`
+[![Agenda Saúde Digital Tacaratu — abrir o MVP acadêmico](assets/agenda.svg)](https://github.com/kauebrpe/agenda-saude-tacaratu-mvp)
 
-Sou estudante de Análise e Desenvolvimento de Sistemas na Faculdade Senac Pernambuco, atualmente no segundo período.
+Como atividade acadêmica individual, desenvolvi um protótipo demonstrativo para consultar campanhas e ações de saúde em Tacaratu. A interface consome uma API REST em **Node.js e Express**, com filtros por categoria, dados demonstrativos e testes automatizados. [Ver código, documentação e testes](https://github.com/kauebrpe/agenda-saude-tacaratu-mvp)
 
-Minha principal área de interesse é **Banco de Dados**, especialmente administração de bancos de dados (DBA), SQL, modelagem, segurança, integridade e gerenciamento de informações.
+![Trama Conecta — Projeto Integrador do Agreste pernambucano](assets/trama.svg)
 
-Também desenvolvo projetos acadêmicos Full Stack, utilizando Java, Spring Boot, MySQL, React e APIs REST.
+Participo do desenvolvimento de um sistema de gestão para confecções. A aplicação acompanha clientes, pedidos e prazos, reúne indicadores e exporta dados em CSV. O back-end usa **Java, Spring Boot, JPA e MySQL**, com migrações em Flyway e interface em React. *Repositório privado.*
 
-Integro o COMPET Superior 2026 — FACEPE, no projeto institucional Agenda Saúde Digital Tacaratu, e participo do Projeto Integrador Trama Conecta.
+[![Estudos em ADS — abrir repositório de exercícios](assets/ads.svg)](https://github.com/kauebrpe/ADS_FACULDADE)
 
-Busco minha primeira oportunidade profissional em tecnologia e quero aprofundar meus conhecimentos em Banco de Dados, Back-end e Cibersegurança.
+Atividades da graduação em programação, desenvolvimento web e bancos relacionais. [Consultar exercícios](https://github.com/kauebrpe/ADS_FACULDADE)
 
-<div align="center">
+## `mysql>` Banco de Dados
 
-![Database](https://img.shields.io/badge/DATABASE-174529?style=for-the-badge&logo=mysql&logoColor=39FF14)
-![Backend](https://img.shields.io/badge/BACKEND-174529?style=for-the-badge&logo=springboot&logoColor=39FF14)
-![Security](https://img.shields.io/badge/SECURITY-174529?style=for-the-badge&logo=hackthebox&logoColor=39FF14)
+**Meu foco é SQL e MySQL.** Na graduação, estudo modelagem relacional, cardinalidade e integridade referencial. Pratico DDL para definir tabelas e restrições, DML para inserir e alterar registros, DQL para consultar dados e DTL para controlar transações com `COMMIT` e `ROLLBACK`.
 
-</div>
+![Modelo didático. Um cliente pode ter vários pedidos. A chave estrangeira pedido.cliente_id referencia a chave primária cliente.id.](assets/database.svg)
 
----
-
-## 🟢 `02 / database.sql`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="75"/>
-
-### DATABASE ADMINISTRATION
-
-</div>
+Neste exemplo didático, quero contar os pedidos por cliente e incluir também os clientes que ainda não fizeram pedidos.
 
 ```sql
-SELECT area, objetivo
-FROM carreira
-WHERE interesse IN (
-    'Banco de Dados',
-    'SQL',
-    'DBA',
-    'Backend',
-    'Cybersecurity'
-)
-ORDER BY prioridade;
+SELECT c.id, c.nome, COUNT(p.id) AS total_pedidos
+FROM cliente AS c
+LEFT JOIN pedido AS p ON p.cliente_id = c.id
+GROUP BY c.id, c.nome
+ORDER BY total_pedidos DESC, c.id;
 ```
 
-### Conhecimentos acadêmicos
+**Aprofundamento em DBA.** Quero avaliar índices com `EXPLAIN`, otimizar consultas, praticar backup e restauração e estudar segurança de bancos relacionais.
 
-| Área | Conhecimentos |
-|:---|:---|
-| SQL | DDL, DML, DQL e DTL |
-| Banco de Dados | MySQL e bancos relacionais |
-| Modelagem | Entidades, atributos e relacionamentos |
-| Integridade | Chaves primárias e estrangeiras |
-| Desenvolvimento | CRUD, consultas e persistência |
-| Integração | APIs REST e aplicações Full Stack |
+## `~/stack` Tecnologias aplicadas
 
-### Áreas de aprofundamento
+**Banco de dados e fundamentos de programação**  
+![MySQL e C](assets/data-tools.svg)
 
-![SQL](https://img.shields.io/badge/SQL_Avancado-174529?style=flat-square&logo=mysql&logoColor=white)
-![DBA](https://img.shields.io/badge/Administracao_de_Banco_de_Dados-174529?style=flat-square)
-![Performance](https://img.shields.io/badge/Performance_e_Indexacao-174529?style=flat-square)
-![Backup](https://img.shields.io/badge/Backup_e_Recovery-174529?style=flat-square)
-![Security](https://img.shields.io/badge/Seguranca_de_Dados-174529?style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-174529?style=flat-square&logo=postgresql&logoColor=white)
+**Back-end e APIs REST** · Persistência com JPA e migrações com Flyway.  
+![Java, Spring Boot, Maven, Node.js e Express](assets/backend.svg)
 
----
+**Interfaces web**  
+![React, Vite, JavaScript, HTML e CSS](assets/web.svg)
 
-## 🟢 `03 / technology.stack`
+**Versionamento e ambiente de desenvolvimento**  
+![Git, GitHub e VS Code](assets/toolchain.svg)
 
-<div align="center">
+## `~/security-lab` Objetivos de aprendizado
 
-| Especialidade | Tecnologias |
-|:---|:---|
-| **Database** | <img src="https://skillicons.dev/icons?i=mysql&theme=dark"/> |
-| **Back-end** | <img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,maven&theme=dark"/> |
-| **Front-end** | <img src="https://skillicons.dev/icons?i=html,css,js,react,vite&theme=dark"/> |
-| **Programação** | <img src="https://skillicons.dev/icons?i=c,java,js&theme=dark"/> |
-| **Ferramentas** | <img src="https://skillicons.dev/icons?i=git,github,vscode,windows&theme=dark"/> |
+![Cybersecurity Lab. Trilha de estudos em Linux, redes, APIs e dados.](assets/security-lab.svg)
 
-</div>
+- **Linux e redes** — estudar permissões, processos, serviços e comunicação entre aplicações.
+- **Segurança de aplicações e APIs** — entender como a autenticação identifica o usuário e como a autorização limita o acesso a cada recurso.
+- **Segurança de bancos de dados** — praticar privilégios mínimos e estudar integridade e proteção dos dados.
 
-<div align="center">
+## `~/formacao` Formação acadêmica
 
-![REST](https://img.shields.io/badge/REST_API-174529?style=flat-square&logo=fastapi&logoColor=white)
-![Flyway](https://img.shields.io/badge/Flyway-174529?style=flat-square&logo=flyway&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-174529?style=flat-square)
-![JSON](https://img.shields.io/badge/JSON-174529?style=flat-square&logo=json&logoColor=white)
-![GitFlow](https://img.shields.io/badge/Git_Flow-174529?style=flat-square&logo=git&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-174529?style=flat-square&logo=markdown&logoColor=white)
+![Formação acadêmica, cursos complementares e idiomas](assets/education.svg)
 
-</div>
+**Tecnologia em Análise e Desenvolvimento de Sistemas** · Faculdade Senac Pernambuco  
+Março de 2026 a setembro de 2027 (conclusão prevista).
 
-### Tecnologias que pretendo aprofundar
+**Extensão tecnológica** · Selecionado para integrar o projeto institucional *Agenda Saúde Digital Tacaratu* pelo **COMPET Superior 2026 — FACEPE**, voltado ao desenvolvimento de soluções para a saúde pública.
 
-<div align="center">
+**Cursos complementares · Curso em Vídeo**  
+![MySQL](assets/curso-mysql.svg)
+![Java Básico](assets/curso-java.svg)
+![Git e GitHub](assets/curso-git.svg)
+![Algoritmo](assets/curso-algoritmo.svg)
 
-<img src="https://skillicons.dev/icons?i=linux,python,postgres,docker,githubactions,bash&theme=dark"/>
+**Idiomas** · Português nativo · Inglês básico · Espanhol básico
 
-</div>
+## `~/roadmap` Desenvolvimento profissional
 
----
+![Roadmap de aprendizado. SQL avançado e índices, DBA e PostgreSQL, Back-end e APIs, Linux e cibersegurança.](assets/roadmap.svg)
 
-## 🟢 `04 / security.lab`
+## `git log` Atividade no GitHub
 
-<div align="center">
+![Estatísticas atualizadas pelo GitHub Actions: contribuições, commits, pull requests e linguagens por volume de código.](assets/activity.svg)
 
-![Cybersecurity](https://img.shields.io/badge/CYBERSECURITY-174529?style=for-the-badge&logo=hackthebox&logoColor=39FF14)
-![Linux](https://img.shields.io/badge/LINUX-174529?style=for-the-badge&logo=linux&logoColor=white)
-![Security](https://img.shields.io/badge/DATA_SECURITY-174529?style=for-the-badge&logo=letsencrypt&logoColor=white)
+Contagens dos últimos 12 meses segundo o GitHub. As linguagens representam o volume de código nos meus repositórios públicos próprios, excluindo forks. [Consultar atividade no perfil](https://github.com/kauebrpe#year-list-container)
 
-</div>
+<details open>
+<summary>Snake de contribuições · recolher ou expandir</summary>
 
-Cibersegurança é uma das áreas que desejo explorar durante minha formação, principalmente na proteção de dados e aplicações.
+![Snake verde percorrendo o calendário de contribuições de Kauê](assets/contributions.svg)
 
-| Trilha de aprendizado | Foco |
-|:---|:---|
-| Database Security | Proteção e integridade dos dados |
-| Application Security | Desenvolvimento seguro |
-| API Security | Autenticação e autorização |
-| Linux & Networking | Sistemas e fundamentos de redes |
-| Information Security | Confidencialidade e disponibilidade |
-| Vulnerability Analysis | Identificação e prevenção de falhas |
+</details>
 
-> Foco em aprendizado responsável, ético e ambientes autorizados.
+## `~/contato`
 
----
+[![LinkedIn de Kauê](assets/linkedin.svg)](https://www.linkedin.com/in/kauedecarvalho/)
+[![Currículo Lattes de Kauê](assets/lattes.svg)](https://lattes.cnpq.br/1619694344615298)
+[![ORCID de Kauê](assets/orcid.svg)](https://orcid.org/0009-0000-1827-4606)
+[![Enviar e-mail profissional](assets/email.svg)](mailto:kauecarvnascimento@gmail.com)
 
-## 🟢 `05 / projects.repository`
-
-### 🧵 Trama Conecta
-
-![Projeto](https://img.shields.io/badge/Projeto_Integrador-174529?style=flat-square)
-![Privado](https://img.shields.io/badge/Repositorio_Privado-30363D?style=flat-square&logo=github)
-
-Sistema Full Stack voltado para a gestão de confecções do Agreste pernambucano.
-
-- Gerenciamento de empresas, clientes, pedidos e prazos.
-- Dashboard administrativo e exportação CSV.
-- Autenticação, persistência de dados e testes automatizados.
-
-<img src="https://skillicons.dev/icons?i=java,spring,mysql,react,vite,maven&theme=dark"/>
-
-**Complementos:** Flyway, JPA e APIs REST.
-
----
-
-### 🏥 Agenda Saúde Digital Tacaratu — MVP
-
-![Projeto](https://img.shields.io/badge/Projeto_Academico-174529?style=flat-square)
-![Publico](https://img.shields.io/badge/Repositorio_Publico-174529?style=flat-square&logo=github)
-
-MVP acadêmico para soluções digitais na área da saúde.
-
-Aplicação de engenharia de requisitos, desenvolvimento web, documentação técnica, Git Flow, Issues, Pull Requests, testes e versionamento semântico.
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,html,css,js,git,github&theme=dark"/>
-
-[![Repositorio](https://img.shields.io/badge/Explorar_Projeto-174529?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauebrpe/agenda-saude-tacaratu-mvp)
-
----
-
-### 🔬 COMPET Superior 2026 — FACEPE
-
-![FACEPE](https://img.shields.io/badge/FACEPE-COMPET_SUPERIOR_2026-174529?style=flat-square)
-![Status](https://img.shields.io/badge/STATUS-EM_ANDAMENTO-174529?style=flat-square)
-
-Selecionado para integrar o projeto institucional **Agenda Saúde Digital Tacaratu**, voltado à extensão tecnológica, inovação e desenvolvimento de soluções para a saúde pública.
-
----
-
-### 🎓 ADS — Faculdade
-
-Repositório de atividades, estudos e exercícios desenvolvidos durante a graduação.
-
-<img src="https://skillicons.dev/icons?i=c,java,html,css,js,mysql&theme=dark"/>
-
-[![Repositorio](https://img.shields.io/badge/Explorar_Repositorio-174529?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauebrpe/ADS_FACULDADE)
-
----
-
-## 🟢 `06 / education.profile`
-
-**Faculdade Senac Pernambuco**
-
-- Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas.
-- Início: março de 2026.
-- Previsão de conclusão: setembro de 2027.
-
-### Formação complementar
-
-| Curso | Instituição |
-|:---|:---|
-| <img width="25" src="https://skillicons.dev/icons?i=mysql"/> MySQL | Curso em Vídeo |
-| <img width="25" src="https://skillicons.dev/icons?i=java"/> Java Básico | Curso em Vídeo |
-| <img width="25" src="https://skillicons.dev/icons?i=git"/> Git e GitHub | Curso em Vídeo |
-| <img width="25" src="https://skillicons.dev/icons?i=c"/> Algoritmo | Curso em Vídeo |
-
-[![Lattes](https://img.shields.io/badge/Consultar_Formacao_e_Certificacoes-174529?style=for-the-badge&logo=googlescholar&logoColor=white)](https://lattes.cnpq.br/1619694344615298)
-
-### Idiomas
-
-![Português](https://img.shields.io/badge/Portugu%C3%AAs-Nativo-174529?style=flat-square)
-![Inglês](https://img.shields.io/badge/Ingl%C3%AAs-B%C3%A1sico-174529?style=flat-square)
-![Espanhol](https://img.shields.io/badge/Espanhol-B%C3%A1sico-174529?style=flat-square)
-
----
-
-## 🟢 `07 / github.analytics`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=kauebrpe&show_icons=true&hide_rank=true&bg_color=0D1117&title_color=7EE787&text_color=E6EDF3&icon_color=39FF14&border_color=238636"/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kauebrpe&layout=compact&bg_color=0D1117&title_color=7EE787&text_color=E6EDF3&border_color=238636"/>
-
-<img width="95%" src="https://streak-stats.demolab.com?user=kauebrpe&theme=dark&background=0D1117&border=238636&ring=39FF14&fire=39FF14&currStreakLabel=7EE787&sideLabels=E6EDF3&dates=8B949E"/>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=kauebrpe&bg_color=0D1117&color=7EE787&line=39FF14&point=E6EDF3&area=true&hide_border=true"/>
-
-</div>
-
----
-
-## 🟢 `08 / career.roadmap`
-
-```yaml
-career:
-  status: Em formação
-  focus: Banco de Dados e Back-end
-
-  next_steps:
-    - SQL avançado
-    - Administração de bancos de dados
-    - Performance e otimização
-    - Backup e recuperação
-    - Desenvolvimento de APIs
-    - Linux e servidores
-    - Cibersegurança
-    - Primeira oportunidade profissional
-```
-
----
-
-## 🟢 `09 / connect.with.me`
-
-<div align="center">
-
-### Vamos conectar!
-
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-174529?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauedecarvalho/)
-
-[![Lattes](https://img.shields.io/badge/CURRICULO_LATTES-174529?style=for-the-badge&logo=googlescholar&logoColor=white)](https://lattes.cnpq.br/1619694344615298)
-
-[![ORCID](https://img.shields.io/badge/ORCID-174529?style=for-the-badge&logo=orcid&logoColor=A6CE39)](https://orcid.org/0009-0000-1827-4606)
-
-[![Email](https://img.shields.io/badge/EMAIL_PROFISSIONAL-174529?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kauecarvnascimento@gmail.com)
-
-</div>
-
-| Canal | Endereço |
-|:---|:---|
-| LinkedIn | [kauedecarvalho](https://www.linkedin.com/in/kauedecarvalho/) |
-| Currículo Lattes | [1619694344615298](https://lattes.cnpq.br/1619694344615298) |
-| ORCID | [0009-0000-1827-4606](https://orcid.org/0009-0000-1827-4606) |
-| E-mail | [kauecarvnascimento@gmail.com](mailto:kauecarvnascimento@gmail.com) |
-
-<div align="center">
-
-![Status](https://img.shields.io/badge/OPEN_TO_WORK-174529?style=for-the-badge&logo=github&logoColor=39FF14)
-
-**Database. Backend. Security. Evolution.**
-
-`> Connection established. System online_`
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:14532D,100:0D1117&height=100&section=footer"/>
-
-</div>
+![Terminal de kauebrpe em Recife](assets/footer.svg)
